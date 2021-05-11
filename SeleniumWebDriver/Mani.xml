@@ -1,0 +1,15 @@
+<suite name="SmokeTesting" >
+  <test name="PrimusBank" >
+    <classes>
+       <class name="com.selenium.testng.AnnotationsTest1" />
+       <class name="com.selenium.testng.AnnotationsTest2" />
+       
+       
+       
+       
+       
+       
+
+    </classes>
+  </test>
+</suite>
