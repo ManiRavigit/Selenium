@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.testng.ParameterizationTest">
+      <class name="com.selenium.grid.OrangeHrmLoginGrid">
         <methods>
-          <include name="login"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.selenium.testng.ParameterizationTest -->
+      </class> <!-- com.selenium.grid.OrangeHrmLoginGrid -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

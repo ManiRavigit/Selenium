@@ -2,54 +2,38 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77" started-at="2021-05-05T03:13:43Z" finished-at="2021-05-05T03:13:43Z">
+  <suite name="Grid Demo Suite" duration-ms="18811" started-at="2021-05-13T03:26:25Z" finished-at="2021-05-13T03:26:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77" started-at="2021-05-05T03:13:43Z" finished-at="2021-05-05T03:13:43Z">
-      <class name="com.selenium.testng.ParameterizationTest">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testng.ParameterizationTest@3ab39c39]" name="login" duration-ms="27" started-at="2021-05-05T08:43:43Z" data-provider="getData" finished-at="2021-05-05T08:43:43Z">
+    <test name="Login on Chrome" duration-ms="11409" started-at="2021-05-13T03:26:25Z" finished-at="2021-05-13T03:26:37Z">
+      <class name="com.selenium.grid.Grid">
+        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:com.selenium.grid.Grid@4563e9ab]" name="dropdownTest" duration-ms="11364" started-at="2021-05-13T08:56:25Z" finished-at="2021-05-13T08:56:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Selenium1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Training1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Selenium2]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testng.ParameterizationTest@3ab39c39]" name="login" duration-ms="2" started-at="2021-05-05T08:43:43Z" data-provider="getData" finished-at="2021-05-05T08:43:43Z">
+        </test-method> <!-- dropdownTest -->
+      </class> <!-- com.selenium.grid.Grid -->
+    </test> <!-- Login on Chrome -->
+    <test name="Login on Firefox" duration-ms="18793" started-at="2021-05-13T03:26:25Z" finished-at="2021-05-13T03:26:44Z">
+      <class name="com.selenium.grid.Grid">
+        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:com.selenium.grid.Grid@7907ec20]" name="dropdownTest" duration-ms="18771" started-at="2021-05-13T08:56:25Z" finished-at="2021-05-13T08:56:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Selenium1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Training1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Selenium2]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- com.selenium.testng.ParameterizationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- dropdownTest -->
+      </class> <!-- com.selenium.grid.Grid -->
+    </test> <!-- Login on Firefox -->
+  </suite> <!-- Grid Demo Suite -->
 </testng-results>
